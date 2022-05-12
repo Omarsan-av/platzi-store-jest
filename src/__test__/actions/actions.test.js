@@ -8,6 +8,7 @@ describe('Actions', () => {
          type: 'ADD_TO_CART',
          payload,
       };
+      
       expect(actions.addToCart(payload)).toEqual(expected);
    });
 });
